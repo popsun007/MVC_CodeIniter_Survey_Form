@@ -1,0 +1,45 @@
+.row 
+{
+	margin-top: 30px;
+}
+.table_inp td
+{
+	padding: 5px;
+}
+	textarea {
+		width: 300px;
+		height: 60px;
+	}
+
+.success 
+{
+	width: 250px;
+	height: 65px;
+	padding-top: 10px;
+	border: 1px solid black;
+	background-color: lightgreen;
+	display: block;
+}
+.info 
+{
+	margin-top: 20px;
+	border: 1px solid black;
+	height: 180px;
+	width: 250px;
+}
+.table_info
+{
+	font-size: 15px;
+	display: block;
+}
+.table_info th 
+{
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.table_info td 
+{
+	/*width: 150px;*/
+	padding-left: 5px;
+}
