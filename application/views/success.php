@@ -39,7 +39,7 @@
         			<tr>
         			</tr>
         			<tr>
-        				<td colspan='2' style='text-align: right'><a href="main/go_back">Go Back</a></td>
+        				<td colspan='2' style='text-align: right'><a href="/home/go_back">Go Back</a></td>
         			</tr>
         		</table>
         	</div>

@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class Main extends CI_Controller
+class Results extends CI_Controller
 {
 	protected $infos = array();
 	public function __construct()
@@ -7,11 +7,7 @@ class Main extends CI_Controller
 		parent::__construct();
 		$this->output->enable_profiler();
 	}
-	public  function index()
-	{
 
-		$this->load->view('index');
-	}
 	public function surveys()
 	{
 		$this->infos['name'] = $this->input->post('name');
@@ -28,11 +24,9 @@ class Main extends CI_Controller
 			$this->session->set_userdata('counter', 1);
 		}
 		$this->infos['count'] = $this->session->userdata('counter');
-		$this->load->view('success', $this->infos);
+		$this->session->set_userdata('form', $this->infos);
+		redirect('/home');
 	}
-	public function go_back()
-	{
-		$this->load->view('index');
-	}
+
 }
 ?>

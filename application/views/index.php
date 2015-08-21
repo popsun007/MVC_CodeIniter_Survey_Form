@@ -12,7 +12,7 @@
     </head>
     <body>
 		<div class="row">
-	       	<form class='col-md-4 col-md-offset-4 form-group' action="/main/surveys" method="post">
+	       	<form class='col-md-4 col-md-offset-4 form-group' action="/results/surveys" method="post">
 	        	<table class='table_inp'> 
 	        		<tr>
 	        			<td>Your Name:</td>
